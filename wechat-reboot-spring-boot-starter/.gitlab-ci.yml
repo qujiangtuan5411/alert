@@ -1,0 +1,6 @@
+include:
+  - project: ops/gitlab_pipline
+    file: java_api.yml
+#     reg: v2.0.6
+variables:
+  SKIP_TEST: "true"
