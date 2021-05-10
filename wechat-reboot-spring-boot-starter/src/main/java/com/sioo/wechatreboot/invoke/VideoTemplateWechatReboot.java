@@ -91,9 +91,9 @@ public class VideoTemplateWechatReboot {
         String WEBHOOK = CHATBOT_WEBHOOK;
         MarkdownMessage message = new MarkdownMessage();
         message.add(MarkdownMessage.getHeaderText(3, header));
-        message.add(MarkdownMessage.getGreenText("内容:【 "+ content +"】"));
+        message.add(MarkdownMessage.getGreenText(content));
         message.add("\n\n");
-        message.add(MarkdownMessage.getGreenText("当前时间:【 "+ currentDateTimeStr +" 】"));
+        message.add(MarkdownMessage.getGreenText("当前时间: "+ currentDateTimeStr));
         message.add("\n\n");
         return WxChatbotClient.send(WEBHOOK, message);
     }
