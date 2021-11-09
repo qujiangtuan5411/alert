@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a9ab372-c4e0-4b3c-b842-54dc887ed2bf" name="Default Changelist" comment="添加打车报警">
+    <list default="true" id="7a9ab372-c4e0-4b3c-b842-54dc887ed2bf" name="Default Changelist" comment="添加打车报警1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alert" beforeDir="false" afterPath="$PROJECT_DIR$/alert" afterDir="false" />
     </list>
@@ -119,6 +119,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AlertApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="alert" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qujia.alert.AlertApplication" />
@@ -157,6 +168,8 @@
       <workItem from="1620613892382" duration="13073000" />
       <workItem from="1620789130446" duration="4573000" />
       <workItem from="1627994740462" duration="2485000" />
+      <workItem from="1628128180553" duration="1160000" />
+      <workItem from="1636455990842" duration="1299000" />
     </task>
     <task id="LOCAL-00001" summary="环境初始化">
       <created>1620381120418</created>
@@ -193,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628042672498</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="添加打车报警1">
+      <created>1628128271816</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628128271816</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +270,8 @@
     <MESSAGE value="环境初始化2" />
     <MESSAGE value="添加天气报警" />
     <MESSAGE value="添加打车报警" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加打车报警" />
+    <MESSAGE value="添加打车报警1" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加打车报警1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
