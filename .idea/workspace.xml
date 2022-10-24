@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a9ab372-c4e0-4b3c-b842-54dc887ed2bf" name="Default Changelist" comment="添加打车报警1">
+    <list default="true" id="7a9ab372-c4e0-4b3c-b842-54dc887ed2bf" name="Default Changelist" comment="添加零食报警">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alert" beforeDir="false" afterPath="$PROJECT_DIR$/alert" afterDir="false" />
     </list>
@@ -119,17 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AlertApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="alert" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qujia.alert.AlertApplication" />
@@ -169,7 +159,13 @@
       <workItem from="1620789130446" duration="4573000" />
       <workItem from="1627994740462" duration="2485000" />
       <workItem from="1628128180553" duration="1160000" />
-      <workItem from="1636455990842" duration="1299000" />
+      <workItem from="1636455990842" duration="2575000" />
+      <workItem from="1636613585892" duration="36000" />
+      <workItem from="1649383742073" duration="754000" />
+      <workItem from="1649408008504" duration="6796000" />
+      <workItem from="1649642260250" duration="37000" />
+      <workItem from="1666177434349" duration="3311000" />
+      <workItem from="1666237684668" duration="176000" />
     </task>
     <task id="LOCAL-00001" summary="环境初始化">
       <created>1620381120418</created>
@@ -213,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628128271816</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加零食报警">
+      <created>1636457431204</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636457431204</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +274,8 @@
     <MESSAGE value="添加天气报警" />
     <MESSAGE value="添加打车报警" />
     <MESSAGE value="添加打车报警1" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加打车报警1" />
+    <MESSAGE value="添加零食报警" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加零食报警" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -318,7 +322,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/alert/src/main/java/com/qujia/alert/scheduled/AlertCommonScheduled.java</url>
-          <line>73</line>
+          <line>75</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
